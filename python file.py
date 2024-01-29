@@ -9,6 +9,7 @@ def calculate_credit_points(credit_unit, grade):
 
 # Main function to calculate the SGPA
 def calculate_sgpa():
+    global total_credit, total_credit_units
     # Request user input for the number of courses
     num_courses = int(input("Enter the number of courses: "))
 
